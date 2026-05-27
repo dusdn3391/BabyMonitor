@@ -63,10 +63,6 @@ pip install opencv-python mediapipe numpy tensorflow tensorflow-hub sounddevice
 
 ```powershell
 python baby_monitor.py
-```
-
-> 처음 실행 시 AI 모델 파일 2개 자동 다운로드 (약 10MB)
-
 ---
 
 ## 📁 프로젝트 구조
