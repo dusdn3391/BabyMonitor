@@ -63,6 +63,8 @@ pip install opencv-python mediapipe numpy tensorflow tensorflow-hub sounddevice
 
 ```powershell
 python baby_monitor.py
+```
+
 ---
 
 ## 📁 프로젝트 구조
@@ -88,7 +90,7 @@ NO_MOTION_THRESHOLD   = 20.0   # 움직임 없음 위험 판단 시간 (초)
 MOTION_SENSITIVITY    = 800    # 움직임 감도 (낮을수록 민감)
 PRONE_Z_THRESHOLD     = 0.1    # 엎드림 판단 민감도
 FALL_THRESHOLD        = 2.0    # 낙상 판단 시간 (초)
-CRY_THRESHOLD         = 3.0    # 울음 지속 위험 판단 시간 (초)
+CRY_THRESHOLD         = 2.0    # 울음 지속 위험 판단 시간 (초)
 ```
 
 ---
